@@ -157,6 +157,7 @@ div#innerwrapper {
 
 span {
 	border-radius:9px;
+	box-shadow:8px 2px 15px red;
 }
 
 
