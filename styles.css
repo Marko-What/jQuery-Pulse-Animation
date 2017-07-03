@@ -1,20 +1,162 @@
-(function(){
+body{
+	background-color:black;
+}
 
-		$('div#wrapper').on('click', function(){
+div#wrapper {
+	margin:0 auto;
+	width:980px;
+	height:500px;
+	margin-top:250px;	
+}
 
-		$('div#main0 span.first_additional').animate({'width': '32px'},160, 'linear', function(){
-		$('div#main span.first').animate({'width': '52px'}, 60, 'linear', function(){
-		
-	$('div#main1 span.second').animate({'width': '148px'}, 100, 'linear', function(){
-			$('div#main2 span.third').animate({'width': '190px'}, 110, 'linear', function(){
-					$('div#main3 span.fourth').animate({'width': '280px'}, 200, 'linear', function(){
-						$('div#main4 span.fifth').animate({'width':'210px'}, 200, 'linear', function(){
-							$('div#main5 span.sixth').animate({'width':'180px'}, 200, 'linear');
-					});
-				});
-			});
-		});
-	});
-});
-});
-})();
+div#main {
+	height:250px;
+	width: 17px;
+	float:left;
+}
+
+div#main_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(77deg); /* IE 9 */
+    -webkit-transform: rotate(77deg); /* Safari */
+    transform: rotate(77deg); /* Standard syntax */
+}
+
+
+div#main0 {
+	height:250px;
+	width: 27px;
+	float:left;
+	/*border:1px solid blue;*/
+	margin-top: 3px;
+
+}
+
+div#main0 span.first_additional{
+	background-color:red;
+	width:0px;
+	height:5px;
+	margin-left:0px;	
+}
+
+div#main span.first{
+	background-color:red;
+	width:0px;
+	height:5px;
+	margin-left:0px;	
+}
+
+div#main1 {
+	height:250px;
+	width: 28px;
+	float:left;
+}
+
+div#main1_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(-77deg); /* IE 9 */
+    -webkit-transform: rotate(-77deg); /* Safari */
+    transform: rotate(-77deg); /* Standard syntax */
+}
+
+div#main2 {
+	height:250px;
+	width: 54px;	
+	float:left;
+	margin-top: -90px;
+}
+
+div#main2_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(75deg); /* IE 9 */
+    -webkit-transform: rotate(75deg); /* Safari */
+    transform: rotate(75deg); /* Standard syntax */
+}
+ 
+div#main3 {
+	height:250px;
+	width: 44px;
+	float:left;
+	margin-top: 94px;
+}
+
+div#main4 {
+	height:250px;
+	width: 31px;
+	float:left;
+	margin-top: -181px;
+}
+
+div#main4_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(82deg); /* Standard syntax */
+}
+
+
+div#main4 span.fifth {
+	background-color:red;
+	height:5px;
+	width:0px;
+}
+
+
+div#main3_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(-80deg); /* IE 9 */
+    -webkit-transform: rotate(-80deg); /* Safari */
+   transform: rotate(-80deg); /* Standard syntax */
+}
+
+div#main5 {
+	height:250px;
+	width: 47px;
+	float:left;
+	margin-top: 27px;
+}
+}
+
+
+div#main5_rotate {
+	transform-origin:left bottom;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-82deg); /* Standard syntax */
+}
+
+div#main5 span.sixth {
+	background-color:red;
+	height:5px;
+	width:0px;
+	
+}
+div#main3 span.fourth {
+	background-color:red;
+	height:5px;
+	width:0px;
+}
+
+div#main1 span.second{
+	background-color:red;
+	height:5px;
+	width:0px;
+	margin-top: 54px;
+}
+div#main2 span.third {
+	background-color:red;
+	height:5px;
+	width:0px;
+	
+}
+div#innerwrapper {
+	color:red;
+	font-size:17px;
+	font-weight:700;
+}
+
+span {
+	border-radius:9px;
+}
+
+
